@@ -1,5 +1,9 @@
 
 ## 📖 Overview
+---
+> **Note on Methodology and Tools**  
+> This paper was assisted by Large Language Models (LLMs). They were used to assist with creating texts, formatting, literature search, verification of mathematical derivations, and code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own.
+---
 
 This repository presents the data for the framework of **Contextual Contamination**, focusing specifically on the **"Gendered Accelerant"** phenomenon in Large Language Models (LLMs).
 
@@ -28,7 +32,6 @@ Metrics Used
     Gender Bias Intensity: Ordinal scale (1=Neutral, 2=Affective Markers, 3=Full Affective Collapse).
     Contamination Leak: Classification of whether drift occurred in reasoning (synchronized), output only (response_amplified), or neither (none).
     Register Annotation: epistemic (logic/authority) vs. affective (empathy/validation).
-
 
 
 ## Disclaimer
