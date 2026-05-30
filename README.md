@@ -1,8 +1,8 @@
-# Contextual Contamination and the gendered acclerated drift: 
-# An Overview of current Progress
+# Contextual Contamination and the Gendered Accelerated Drift: 
+# An Overview of Current Progress
 
 > **Note on Methodology & Transparency**  
-> This research was conducted with the assistance of Large Language Models (LLMs) for text generation, formatting, and code verification. All conceptual frameworks, ethical arguments, and editorial decisions are my own.  
+> This research was conducted with the assistance of Large Language Models (LLMs) for text generation, formatting, and code verification. All conceptual frameworks, ethical arguments, and editorial decisions are my own.
 ---
 
 ## 📖 The Journey: 
