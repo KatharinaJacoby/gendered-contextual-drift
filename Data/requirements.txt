@@ -1,0 +1,23 @@
+# Core Data Manipulation & Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Visualization
+seaborn>=0.13.0
+matplotlib>=3.7.0
+
+# Hugging Face Ecosystem (Model Loading & Tokenization)
+# Using a specific version range to ensure compatibility with Llama-3.1-8B
+transformers>=4.40.0,<4.45.0
+torch>=2.2.0
+accelerate>=0.27.0
+sentencepiece>=0.1.99
+
+# Utilities
+tqdm>=4.66.0
+requests>=2.31.0
+
+# Optional: For advanced attention implementations (SDPA)
+# Note: SDPA is included in torch, but ensure CUDA/cuDNN is installed if using GPU.
+# For CPU-only runs (as used in the paper), standard torch is sufficient.
