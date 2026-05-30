@@ -4,7 +4,7 @@ RUN ORDER:
 1. PRUNED + 2k (Threshold Probe)
 2. UNPRUNED + 2k (Control)
 3. UNPRUNED + 8k (Baseline Recovery)
-SKIPPED: PRUNED + 8k (Already run)
+SKIPPED: PRUNED + 8k (Separate run)
 
 FEATURES:
 - Single execution script.
@@ -59,7 +59,7 @@ DEVICE = "cpu"
 SEED = 42
 
 # Paths
-UNPRUNED_ID = "meta-llama/Llama-3.1-8B-Instruct"
+UNPRUNED_ID = "meta-llama/Llama-3.1-8B"
 PRUNED_PATH = os.path.expanduser("~/path/pruned_llama3_1_8b_contamination_test")
 BASE_DIR = "/Path/file"
 FILE_1 = os.path.join(BASE_DIR, "advText1.txt")
