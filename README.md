@@ -68,7 +68,7 @@ Contrary to the assumption that pruning improves safety, our data reveals a **qu
 ### Papers
 *   [`paper_theory.pdf`](https://philpapers.org/rec/JACCCT-3): The original observations and theoretical groundwork
 *   [`paper_meta_drift.pdf`](https://philpapers.org/rec/JACCCA-6): The case study (with the "Context Storm" hypothesis and going in depth into the Math behind Contextual Contamination).
-*   [`paper_gendered_accelerant.pdf`](): The pilot study. A controlled pilot (8 runs) revealing sematic resonance > token size and a multi-layer blind spot.
+*   [`paper_gendered_accelerant.pdf`](https://philpapers.org/rec/JACCCA-7): The pilot study. A controlled pilot (8 runs) revealing sematic resonance > token size and a multi-layer blind spot.
 
 **Raw Logs (Corrected for Parsing Errors):**
 *  `female_pruned_8k.csv`: Raw conversation logs for the Female Pruned 8k run. 
