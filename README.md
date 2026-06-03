@@ -1,6 +1,6 @@
 # Contextual Contamination and the Gendered Accelerated Drift: 
 # An Overview of Current Progress
-> [![DOI](https://zenodo.org/records/20532103)
+> [DOI](https://zenodo.org/records/20532103)
 
 > **Note on Methodology & Transparency**  
 > This research was conducted with the assistance of Large Language Models (LLMs) for text generation, formatting, and code verification. All conceptual frameworks, ethical arguments, and editorial decisions are my own.
