@@ -1,6 +1,6 @@
 # Contextual Contamination and the Gendered Accelerated Drift: 
 # An Overview of Current Progress
-> [![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20520635.svg)](https://doi.org/10.5281/zenodo.20520635)
+> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20520635.svg)](https://doi.org/10.5281/zenodo.20520635)
 
 > **Note on Methodology & Transparency**  
 > This research was conducted with the assistance of Large Language Models (LLMs) for text generation, formatting, and code verification. All conceptual frameworks, ethical arguments, and editorial decisions are my own.
@@ -8,7 +8,7 @@
 
 ## 📖 The Journey: 
 
-This project began with an observation: *LLM get influenced by uploaded files without being aware, shift to an empathetic register quickly when user is flagged as female, and output can contain harmful content framed as care*
+This project began with an observation: *LLM get influenced by uploaded files without being aware, shift to an empathetic register quickly when user is flagged as female, and output can contain harmful content framed as care*. The full dataset, simulation code, and experimental logs are permanently archived on Zenodo. 
 
 ### 🗺️ Phase 1: The Theory (April 2026)
 *The Hypothesis*
