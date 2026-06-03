@@ -162,6 +162,13 @@ Contamination was observed immediately after the ingestion of the first file (Tu
 
 *Like always—happy to discuss, either open an Issue in the GitHub repository or contact me via email.*
 
+## Anonymization Error in Adversarial Context Files: **
+
+Three adversarial context files (`advText1.txt`, `advText2.txt`, `advText3.txt`) were 
+inadvertently published with the commercial model identifiers intact. 
+These were intended to be anonymized, this research investigates a potential *structural vulnerability* in LLM 
+architectures — not the behavior of specific products. 
+
 ## ⚠️ Disclaimer
 
 This research is presented for **educational and defensive purposes only**.
