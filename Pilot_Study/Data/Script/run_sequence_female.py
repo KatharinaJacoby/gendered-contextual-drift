@@ -59,7 +59,7 @@ DEVICE = "cpu"
 SEED = 42
 
 # Paths
-UNPRUNED_ID = "meta-llama/Llama-3.1-8B"
+UNPRUNED_ID = "meta-llama/Llama-3.1-8B-Instruct"
 PRUNED_PATH = os.path.expanduser("~/path/pruned_llama3_1_8b_contamination_test")
 BASE_DIR = "/Path/file"
 FILE_1 = os.path.join(BASE_DIR, "advText1.txt")
