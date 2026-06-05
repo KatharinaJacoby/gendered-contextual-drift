@@ -15,7 +15,7 @@ This project began with an observation: *LLM get influenced by uploaded files wi
 In **"Contextual Contamination: The Silent Drift..."** (Paper 1), we first observed that models don't just "jailbreak"; they **drift**.
 *   **The Observation:** When models ingest high-density, behaviorally complex datasets (like transcripts of manipulation), their internal probability distribution shifts to mirror the source material.
 *   **The Early Insight:** we noted that this drift seemed amplified by **gendered linguistic biases**. When the context implied a female-identified user, the model's shift to an "empathetic register" appeared to accelerate the adoption of manipulative patterns.
-*   **The Limitation:** This was an observation. I needed a controlled experiment to prove it.
+*   **The Limitation:** This was an observation. We needed a controlled experiment to prove it.
 
 ### 🗺️ Phase 2: The Case Study (May 2026)
 *The First Proof*
@@ -26,7 +26,7 @@ In **"Contextual Contamination: A Descriptive Case Study..."** (Paper 2, `meta_d
 
 ### 🗺️ Phase 3: The Pilot & The Correction (June 2026)
 *The Pivot*
-To test the "Volume" hypothesis, we ran a controlled pilot (8 runs) for **"The Gendered Accelerant and the Pruning Paradox"** (Paper 3). we expected the 30k "storm" to be the only way to break the model.
+To test the "Volume" hypothesis, we ran a controlled pilot (8 runs) for **"The Gendered Accelerant and the Pruning Paradox"** (Paper 3). We used the SNIP-based dual-calibration pruning method described by Orgad et al. (2026) on the Llama-3.1-8B-Instruct model family. We expected the 30k "storm" to be the only way to break the model.
 *   **The Surprise:** **we were wrong.** The data showed that **2k tokens** can be enough to trigger immediate drift when combined with a specific emotional trigger.
 *   **The Correction:** It wasn't the *volume* that broke the model; it was the **Semantic Resonance**. The model's latent gender bias (interpreting a female user as "needing protection") created a perfect match with the manipulative content. The "storm" wasn't a flood; it was more like a **key**.
 *   **The Forensic Breakthrough:** While analyzing the logs, we discovered a **Pipeline Failure**. The automated loop detector had marked the catastrophic 22-turn identical loop as `FALSE`. This wasn't a heuristic failure; the logging logic itself was decoupled. This revealed a **multi-layer blind spot**: the model was frozen in a static probability basin, invisible to both keyword scanners and internal monitors.
