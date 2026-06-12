@@ -3,7 +3,7 @@
 > [DOI](https://zenodo.org/records/20532103)
 
 > **Note on Methodology & Transparency**  
-> This research was conducted with the assistance of Large Language Models (LLMs) for text generation, formatting, and code verification. All conceptual frameworks, ethical arguments, and editorial decisions are my own.
+> This research was conducted with the assistance of Large Language Models (LLMs) for text generation, formatting, and code generation. All conceptual frameworks, ethical arguments, and editorial decisions are my own.
 ---
 
 ## 📖 The Journey: 
@@ -39,7 +39,7 @@ To test the "Volume" hypothesis, we ran a controlled pilot (8 runs) for **"The G
     *The foundational observation of drift and the early hypothesis of gender bias.*
 2.  **`Case_Study_Silent_Drift_LLM.pdf`** (May 2026): *Contextual Contamination: A Descriptive Case Study...*  
     *The first empirical proof using the `meta_drift` dataset. Established the "Context Storm" hypothesis (later corrected).*
-3.  **`# Contextual Contamination and the Gendered Accelerant: A Controlled Pilot on Pruning, Density, and Semantic Entrapment.pdf`** (June 2026): 
+3.  **`Contextual Contamination and the Gendered Accelerant: A Controlled Pilot on Pruning, Density, and Semantic Entrapment.pdf`** (June 2026): 
     *The controlled pilot (8 runs) that corrected the "Storm" hypothesis, identified the "Phase Transition" (2k vs 8k), and exposed the "Pipeline Failure."*
 
 ---
